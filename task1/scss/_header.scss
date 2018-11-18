@@ -1,0 +1,57 @@
+header {
+	background: url('../images/slide.jpg')no-repeat;
+	background-size: cover;
+	@media (max-width: 360px){
+		.header{
+			h1{
+				margin-top: 45px;
+			}
+		}
+	}
+	.header {
+		padding-top: 22%;
+		h1{
+			
+			font-family: Open Sans;
+			font-size: 44px;
+			font-weight: 300;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1;
+			letter-spacing: -2.2px;
+			text-align: center;
+			color: #00a5ff;
+			margin-bottom: 12px;
+		}
+		p {
+			font-family: Open Sans;
+			font-size: 19px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.4;
+			letter-spacing: -1px;
+			text-align: center;
+			color: #b1afaf;
+			margin-bottom: 21%;
+		}
+		.circle {
+			position: relative;
+			height: 50px;
+			width: 50px;
+			border: 1px solid;
+			border-radius: 50%;
+			color: #b4b4b7;
+			margin: 0 auto;
+			margin-bottom: 90px;
+			cursor: pointer;
+			.arrow {
+				position: absolute; 
+				left: 18px;
+				top: 11px;
+				color: #b4b4b7;
+			}
+		}
+	}
+}
+

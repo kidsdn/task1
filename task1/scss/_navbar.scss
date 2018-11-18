@@ -1,0 +1,63 @@
+#mainNav{
+	padding-top: 30px;
+	margin-bottom: 200px;
+	
+	.navbar-nav .nav-item .nav-link+.bb{
+		height: 3px;
+	    background: transparent;
+	    width: 60%;
+	    position: relative;
+	    overflow: hidden;
+	    display: block;
+	    margin: 0 auto;
+		-webkit-transition: background .2s;
+		transition: background .2s;
+		bottom:15px;
+		margin-top: 15px;
+	}
+	.navbar-nav .nav-item .nav-link:hover+.bb,
+	.navbar-nav .nav-item .nav-link.active+.bb{
+	    background: #0092ff;
+	}
+	
+	@media (max-width: 992px){
+		.navbar-nav .nav-item .nav-link:hover {
+		    color: #0092ff!important;
+		}
+		.navbar-nav .nav-item .nav-link.active{
+			color: #0092ff!important;
+		}
+		.navbar-nav .nav-item .nav-link+.bb {
+		    background: transparent!important;
+		}
+	}
+	
+	.navbar-nav{
+		font-family: Myriad Pro;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		letter-spacing: normal;
+		font-size: 15px;
+		line-height: 1.5;
+		text-align: left;
+		color: $white;
+		margin-top: 10px;
+		.nav-item{
+			margin-right:16px;
+			.nav-link{color: #fff!important;} 
+		}
+
+	}
+	.navbar-brand{
+		font-family: Myriad Pro;
+		font-weight: bold;
+		font-style: normal;
+		font-stretch: normal;
+		letter-spacing: normal;
+		font-size: 27px;
+		line-height: 1;
+		text-align: left;
+		color: $blue-2;
+	}
+}

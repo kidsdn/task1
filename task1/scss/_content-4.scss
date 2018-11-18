@@ -1,0 +1,70 @@
+#content-4 {
+	background: url('../images/content3-item2.png');
+	background-size: cover;
+	.title{
+		margin-top: 9%; 
+		margin-bottom: 48px;
+		h1{
+		    font-family: 'Open Sans';
+		    font-size: 44px;
+		    font-weight: 300;
+		    font-style: normal;
+		    font-stretch: normal;
+		    line-height: 1;
+		    letter-spacing: normal;
+		    color: $white;
+		    margin-bottom: 30px; 
+		}
+		img{
+			display: block;
+			margin: auto;
+		}
+		>img{
+			margin-bottom: 10px;
+		}
+	}
+	.box{
+		width: 100%;
+		height: 105px;
+		border: solid 1px $gray-4;
+		background-color: $black;
+		line-height: 105px;
+		font-family: Open Sans;
+		color: #cbcbcb;
+		p {
+			font-family: Open Sans;
+			font-size: 17px;
+			font-weight: 300;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.43;
+			letter-spacing: normal;
+			text-align: center;
+			color: $grey;
+			margin-top: 35px;
+		}
+		
+	}
+	.box-2{
+		p{
+			margin-top: 30px;
+		}
+	}
+	.carousel{
+		padding-bottom: 143px;
+		.carousel-indicators{
+			margin-bottom: 90px;
+			li{
+				width: 9px;
+				height: 9px;
+				background: $white;
+				margin-left: 13px;
+				cursor: pointer;
+			}
+			.active{
+				background: $blue-2;
+			} 
+		}
+	}
+}
+
